@@ -15,7 +15,7 @@
     export default {
         data() {
             return {
-                msg: 'Hello,Webpack'
+                msg: 'Hello,Vue'
             }
         }
     }
