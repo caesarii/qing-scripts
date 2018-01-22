@@ -1,8 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './components/App';
-import registerServiceWorker from './registerServiceWorker';
+import Vue from 'vue'
+import App from './components/App.vue'
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+new Vue({
+    el: '#root',
+    render: h => h(App)
+});
